@@ -25,19 +25,19 @@ You can also use Pythonista to build interactive multi-touch experiences, custom
 
 Features:
 
->>> Scriptable code editor with syntax highlighting and code completion
->>> Extended keyboard, designed specifically for Python
->>> Interactive prompt with code completion, command history, and support for showing images in the console output
->>> Integrated visual debugger
->>> Integrated PEP 8 style checker with issues highlighted directly in the editor
->>> Complete offline documentation with quick lookup directly from the editor
->>> Various beautiful light and dark color themes, and a theme editor to make your own
->>> UI editor for quick prototyping
->>> Includes most of the Python standard library and additional modules for graphics, sound, and iOS system services (e.g. clipboard, contacts, reminders, twitter, UI...)
->>> Matplotlib and NumPy for scientific visualizations
->>> Lots of other popular third-party modules, e.g. requests, BeautifulSoup, Flask, bottle, SymPy, and more.
->>> Lots of included examples to get started
->>> Universal app for iPad and iPhone
+* Scriptable code editor with syntax highlighting and code completion
+* Extended keyboard, designed specifically for Python
+* Interactive prompt with code completion, command history, and support for showing images in the console output
+* Integrated visual debugger
+* Integrated PEP 8 style checker with issues highlighted directly in the editor
+* Complete offline documentation with quick lookup directly from the editor
+* Various beautiful light and dark color themes, and a theme editor to make your own
+* UI editor for quick prototyping
+* Includes most of the Python standard library and additional modules for graphics, sound, and iOS system services (e.g. clipboard, contacts, reminders, twitter, UI...)
+* Matplotlib and NumPy for scientific visualizations
+* Lots of other popular third-party modules, e.g. requests, BeautifulSoup, Flask, bottle, SymPy, and more.
+* Lots of included examples to get started
+* Universal app for iPad and iPhone
 
 The name "Pythonista" is used with kind permission of the Python Software Foundation.
 
