@@ -10,4 +10,6 @@ The script was written on my iPhone using the Pythonista app and will control th
 
 The videos in the attached link are all the same but at different frame rates.  12 frames per second equates to 1 seconds = 1 minute, 48 frames per second equates to 1 second = 4 minutes (15 seconds = 1 hour).
 
+Note: Special thanks to Ole Zorn the developer for the iOS app Pythonista, as I wrote and tested my script using his app.
+
 ![Analytics](https://ga-beacon.appspot.com/UA-73311422-5/Theta-MultiPictureCapture)
