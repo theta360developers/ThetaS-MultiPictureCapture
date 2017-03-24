@@ -1,4 +1,4 @@
-# TheataS-MultiPictureCapture
+# ThetaS-MultiPictureCapture
 
 Python script that I wrote to capture 3000 stills with my Theta S last night.
 
