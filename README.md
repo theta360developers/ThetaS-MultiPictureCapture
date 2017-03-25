@@ -1,14 +1,14 @@
 # ThetaS-MultiPictureCapture
 
-Python script that I wrote to capture 3000 stills with my Theta S.
+Python script written by Bob White to capture time-lapse pictures with a RICOH THETA S. Submitted as part of the THETA Unofficial Guide 360 Time-Lapse Video Challenge (http://lists.theta360.guide/t/theta-unofficial-guide-360-time-lapse-video-challenge/1033).
 
-The script sets up the Theta S and then asks how many stills to take.  Stills are shot at 1024 x 2048 due to space limitations of the Theta S. The script will take a picture, sleep for four seconds and then start looking for the status of “inProgress” to clear.  Once the “inProgress” status clears the script will take the next picture (about 5 seconds between each still).  Limited error checking is preformed.  This is just a proof of concept run.
+The script sets up the Theta S and then asks how many stills to take.  Stills are shot at 1024 x 2048 due to space limitations of the Theta S. The script will take a picture, sleep for four seconds and then start looking for the status of “inProgress” to clear.  Once the “inProgress” status clears the script will take the next picture (about 5 seconds between each still).  Limited error checking is preformed. This is just a proof of concept run.
 
-I used an external battery to power the Theta S during the shooting and FFMPEG to build the videos from the stills.
+Note on number of pictures: When you run the script it will let you know how many pictures you can take based on the amount of storage that you have left in the camera. You can enter any number up to that amount. So with an empty camera storage you could ask for as many as 9073 pictures. The other limitation for the number of pictures that you can take is battery life. Ricoh says that the internal battery will support approximately 260 photos. 
 
-The script was written on my iPhone using the Pythonista app and will control the Theta S directly from the app over wifi.
+I used a fully charged Anker PowerCore 26800 (26.8Ah) battery when I shot the 3000 pictures for the Unofficial Guide challenge, and it still had charge when I was done. Bottom line is the script will let you put in whatever you want to shot but it will tell you if you ask for more then there is memory to handle and will then exit.
 
-The videos in the attached link are all the same but at different frame rates.  12 frames per second equates to 1 seconds = 1 minute, 48 frames per second equates to 1 second = 4 minutes (15 seconds = 1 hour).
+Tools used: I used an external Anker PowerCore 26800 (26.8Ah) battery to power the Theta S during the shooting and FFMPEG to build the videos from the stills. The script was written on my iPhone using the Pythonista app and will control the Theta S directly from the app over wifi.
 
 Note: Special thanks to Ole Zorn the developer for the iOS app Pythonista, as I wrote and tested my script using his app.
 
