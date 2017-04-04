@@ -18,8 +18,6 @@ There are currently two versions available. "-orig" is the first version.
 
 6. What is happening when the script is running.  The script will tell your Theta S to take a picture and after the picture has completed processing it will take the next picture and while this  picture is processing the script will transfer the previous picture to the Python host and then delete it from the Theta S storage.  After the last picture is processed it will also be transferred and deleted and you will be notified that the run is complete and the time that it took to complete the run in HH:MM:SS.
 
---
-
 **Notes on Original Version (Mar 24, 2017)**
 
 The script sets up the Theta S and then asks how many stills to take.  Stills are shot at 1024 x 2048 due to space limitations of the Theta S. The script will take a picture, sleep for four seconds and then start looking for the status of “inProgress” to clear.  Once the “inProgress” status clears the script will take the next picture (about 5 seconds between each still).  Limited error checking is preformed. This is just a proof of concept run.
