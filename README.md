@@ -2,7 +2,7 @@
 
 Python script written by Bob White to capture time-lapse pictures with a RICOH THETA S. Submitted as part of the THETA Unofficial Guide 360 Time-Lapse Video Challenge (http://lists.theta360.guide/t/theta-unofficial-guide-360-time-lapse-video-challenge/1033).
 
-There are currently three versions available. "-orig" is the first version.
+There are currently three versions available. "-orig" is the first version. thetaExample.py is the newest version.
 
 **Notes on New Version Updates (Nov 20, 2017)**
 
